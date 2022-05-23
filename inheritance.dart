@@ -1,6 +1,6 @@
 void main() {
   var dog1 = Dog("German Shephard");
-  dog1.color = "green";
+  // dog1.color = "green";
   print("the dogs color is ${dog1.color}");
 
   dog1.eat();
@@ -16,6 +16,7 @@ class Animal {
 
 class Dog extends Animal {
   late String Breed;
+  String color = "Brown";
 
   Dog(String Breed) {
     this.Breed = Breed;
